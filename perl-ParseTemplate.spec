@@ -1,9 +1,9 @@
 %define upstream_name    ParseTemplate
-%define upstream_version 3.02
+%define upstream_version 3.03
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 2
+Release:    %mkrel 1
 
 Summary:    Processor for templates containing Perl expressions
 License:    GPL+ or Artistic
