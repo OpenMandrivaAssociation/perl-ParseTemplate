@@ -1,15 +1,14 @@
 %define upstream_name    ParseTemplate
-%define upstream_version 3.07
-
+%define upstream_version 3.08
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Version:	%perl_convert_version 3.08
+Release:	1
 
 Summary:	Processor for templates containing Perl expressions
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Parse/%{upstream_name}-%{upstream_version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Parse/ParseTemplate-3.08.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(Symbol)
@@ -74,3 +73,4 @@ perl Makefile.PL INSTALLDIRS=vendor
 
 * Sat Mar 27 2010 cpan2dist 3.02-1mdv
 - initial mdv release, generated with cpan2dist
+
