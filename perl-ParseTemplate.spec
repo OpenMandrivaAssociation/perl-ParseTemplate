@@ -2,7 +2,7 @@
 %define upstream_version 3.08
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version 3.08
-Release:	1
+Release:	2
 
 Summary:	Processor for templates containing Perl expressions
 License:	GPL+ or Artistic
