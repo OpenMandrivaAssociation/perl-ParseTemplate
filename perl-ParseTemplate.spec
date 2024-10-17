@@ -7,7 +7,7 @@ Release:	3
 Summary:	Processor for templates containing Perl expressions
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		http://search.cpan.org/dist/%{upstream_name}
+Url:		https://search.cpan.org/dist/%{upstream_name}
 Source0:	http://www.cpan.org/modules/by-module/Parse/ParseTemplate-3.08.tar.gz
 
 BuildRequires:	perl-devel
